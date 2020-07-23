@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './layout.css'
 import { Navigator } from './navigator';
-
+import { Home } from './home';
 export class Layout extends Component{
     render(){
         return(
@@ -10,6 +10,9 @@ export class Layout extends Component{
                          <Navigator></Navigator>
                      </header>
                      <main className="layoutContent">
+                     <article className="layoutHome">
+                     <Home></Home>
+                     </article>
                        
                      </main>
 

@@ -1,4 +1,5 @@
 .layoutGrid{
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr;
 }
