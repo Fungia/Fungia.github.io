@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-
+import './layout.css'
 
 export class Layout extends Component{
     render(){
         return(
-            <div>
-                <h1>test</h1>
+            <div className="layoutGrid">
+                     <div className="layoutNavigator">
+                         lalala
+                     </div>
+                     <div className="layoutContent">
+                         
+                     </div>
+
             </div>
         )
     }
