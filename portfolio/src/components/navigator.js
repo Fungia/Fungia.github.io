@@ -7,17 +7,17 @@ export class Navigator extends Component{
             <nav className="navigatorNav">
                 <section className="user">
                     <div><img className="foto" src={fotka} alt=":)"/></div>
-                    <div><p>Imie Nazwisko</p></div>
+                    <div><p>Justyna Klimczak</p></div>
                 </section>
                 <section className="information">
-                    <div>GŁÓWNA</div>
-                    <div>O MNIE</div>
-                    <div>UMIEJĘTNOŚCI</div>
-                    <div>EDUKACJA</div>
-                    <div>DOŚWIADCZENIE</div>
+                    <div onClick={()=>this.props.onNavClick("home")}>GŁÓWNA</div>
+                    <div  onClick={()=>this.props.onNavClick("aboutMe")}>O MNIE</div>
+                    <div onClick={()=>this.props.onNavClick("skills")}>UMIEJĘTNOŚCI</div>
+                    <div onClick={()=>this.props.onNavClick("education")}>EDUKACJA</div>
+                    <div onClick={()=>this.props.onNavClick("experience")}>DOŚWIADCZENIE</div>
                     <div>KONTAKT</div>
                 </section>
-                <footer className="footer">Copyright</footer>    
+                <footer className="footer">Copyright 2020</footer>    
             </nav>
         )
     }

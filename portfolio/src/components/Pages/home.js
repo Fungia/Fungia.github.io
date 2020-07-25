@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './navigator.css'
+import './home.css'
 
 export class Home extends Component{
     render(){
         return(
-            <article className="layoutHome">
+            <article >
                 <div>
-                    Lorem ipsum
+                    Strona glowna
                     </div>
             </article>
         )
