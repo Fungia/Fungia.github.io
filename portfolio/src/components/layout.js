@@ -12,19 +12,20 @@ export class Layout extends Component{
     }
 
     changeView(name){
-        debugger
         this.setState({choosed:name})
     }
 
     render(){
         return(
             <div className="layoutGrid">
+                    <div className="layoutLeftSide"></div>
                      <header className="layoutNavigator">
                          <Navigator onNavClick={this.changeView.bind(this)}></Navigator>
                      </header>
                      <main className="layoutContent">
                         <Content selected={this.state.choosed}></Content>
                      </main>
+                     <div className="layoutRightSide"></div>
 
             </div>
         )

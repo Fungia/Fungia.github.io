@@ -11,3 +11,13 @@
     grid-column-start: 3;
     grid-column-end: 4;
 }
+.layoutLeftSide{
+    grid-column-start:1;
+    grid-column-end: 2;
+    background-color: white;
+}
+.layoutRightSide{
+    grid-column-start:4;
+    grid-column-end: 5;
+    background-color: white;
+}
