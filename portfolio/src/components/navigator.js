@@ -15,7 +15,7 @@ export class Navigator extends Component{
                     <div onClick={()=>this.props.onNavClick("skills")}>UMIEJĘTNOŚCI</div>
                     <div onClick={()=>this.props.onNavClick("education")}>EDUKACJA</div>
                     <div onClick={()=>this.props.onNavClick("experience")}>DOŚWIADCZENIE</div>
-                    <div>KONTAKT</div>
+                    <div onClick={()=>this.props.onNavClick("contact")}>KONTAKT</div>
                 </section>
                 <footer className="footer">Copyright 2020</footer>    
             </nav>

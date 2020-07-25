@@ -5,6 +5,7 @@ import { AboutMe } from './Pages/AboutMe';
 import { Skills } from './Pages/Skills';
 import { Education } from './Pages/Education';
 import { Experience } from './Pages/Experience';
+import { Contact } from './Pages/Contact';
 
 function getComponent(name){
     switch(name){
@@ -18,6 +19,8 @@ function getComponent(name){
             return <Education/>
         case "experience":
             return <Experience/>
+        case "contact":
+            return <Contact/>
             
     }
 }
